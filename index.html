@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="css/fontawesome.min" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=cormorant&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson Text&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing Script&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Bridge | Demo Site For Medical Marijuana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Link -->
+    <div class="link hidden-xs hidden-sm">
+        <p>
+            <i class="fas fa-mobile-screen-button"></i> +002 666 7834
+            <span><i class="fas fa-envelope"></i> CBD@QODE-THEMES.COM</span>
+            <span class="face-twit-p">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </span>
+        </p>
+        <hr>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <ul class="list-unstyled">
+            <li><a href="file:///D:/project/index.html">Home</a></li>
+            <li><a href="file:///D:/project/about%20us.html">About Us</a></li>
+            <li><a href="file:///D:/project/contact.html">Contact</a></li>
+            <div class="icon">
+                <a href="#"><i class="fas fa-bag-shopping"></i></a>
+            </div>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="background">
+            <img src="images/slider-img-1.png" class="slider-1" alt="">
+            <img src="images/slider-img-2.png" class="slider-2" alt="">
+            <h1>Medical Marijuana</h1>
+            <p class="visible-lg">Vocent labores offendit an usu. Ferri monet aliquit, ex uis quem <br/> regione. Ad vivendo denique</p>
+            <a href="#" class="button">See More <span>+</span></a><br/>
+            <a href="#CBD" class="down"><i class="fa-solid fa-chevron-down"></i></a>
+            <img src="images/slider-img-3.png" class="slider-3" alt="">
+            <img src="images/slider-img-4.png" class="slider-4" alt="">
+            <img src="images/slider-img-5.png" class="slider-5" alt="">
+        </div>
+    </header>
+    <!-- CBD -->
+    <section>
+        <div class="cbd" id="#CBD">
+            <img src="images/single-img-1.jpg" alt="">
+            <h1>CBD1 and <br/> CBD2</h1>
+            <h2 class="visible-sm">CBD1 and CBD2</h2>
+            <p>Commodo regione praesent sed ea. Dignissim similique duo te, et euripidis urbanitas sit, nam id utroque inimicus.</p>
+        </div>
+        <div class="our-pleans">
+            <img src="images/icon-1 (1).png" alt="">
+            <h2>Indica</h2>
+            <p>Corpora detraxit ut sed, in vitae aliquam vituperata sea. Ad est eleifend pericula. Vim an.</p>
+        </div>
+        <div class="our-pleans">
+            <img src="images/icon-2.png" alt="">
+            <h2>Sativa</h2>
+            <p>Corpora detraxit ut sed, in vitae aliquam vituperata sea. Ad est eleifend pericula. Vim an.</p>
+        </div>
+        <div class="our-pleans-icon">
+            <img src="images/icon-3.png" alt="">
+            <h2>Indica</h2>
+            <p>Corpora detraxit ut sed, in vitae aliquam vituperata sea. Ad est eleifend pericula. Vim an.</p>
+        </div>
+        <div class="our-pleans-repeat">
+            <img src="images/icon-1 (1).png" alt="">
+            <h2>Indica</h2>
+            <p>Corpora detraxit ut sed, in vitae aliquam vituperata sea. Ad est eleifend pericula. Vim an.</p>
+        </div>
+    </section>
+    <!-- Our Team -->
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 our-team-1">
+                    <img src="images/testimonial-1.png" alt="">
+                    <p>Auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                    <h2>Lana Watson</h2>
+                </div>
+                <div class="col-md-4 our-team-2 hidden-xs">
+                    <img src="images/testimonial-2.png" alt="">
+                    <p>Mei sumo phaedrum argumentum ad, eos id dico unum insolens. Ne sint error propriae his. Cu vel decore.</p>
+                    <h2>Arlie Bourland</h2>
+                </div>
+                <div class="col-md-4 our-team-3 hidden-xs hidden-sm">
+                    <img src="images/testimonial-3.png" alt="">
+                    <p>Agam sadipscing ex qui, an quidam postulant honestatis mel. At audire tacimates per. Consetetur vituperatoribus sed in.</p>
+                    <h2>Mark Miller</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Products -->
+    <section class="our-products">
+        <h1>Our Products</h1>
+        <p>Commodo regione praesent sed ea. Dignissim similique duo te, et euripidis urbanitas sit, nam id utroque inimicus.</p>
+        <div class="mojmo3">
+            <h3><span><i class="fas fa-check"></i></span>Anexiety and Stress</h3>
+            <p>Corpora detraxit ut sed, in vitae aliquam vituperata sea. Ad est eleifend.</p>
+        </div>
+        <div class="mojmo3">
+            <h3><span><i class="fas fa-check"></i></span>Migrens and Chronic Pain</h3>
+            <p>Corpora detraxit ut sed, in vitae aliquam vituperata sea. Ad est eleifend.</p>
+        </div>
+        <div class="mojmo3">
+            <h3><span><i class="fas fa-check"></i></span>Alzheimer’s and Glaucoma</h3>
+            <p>Corpora detraxit ut sed, in vitae aliquam vituperata sea. Ad est eleifend.</p>
+        </div>
+        <img src="images/single-img-2.jpg" alt="">
+    </section>
+    <!-- Ready to Start -->
+    <section class="ready">
+        <h1>Ready to start growing with us?
+            <a href="#" class="button">Les`t talk <span>+</span></a>
+        </h1>
+        <p>Cu vel decore commune imperdiet, sit habeo errem mollis ei</p>
+    </section>
+    <!-- Our Products -->
+    <section class="products">
+        <div class="container">
+            <div class="introduction">
+                <h1>Our Products</h1>
+                <p>Dignissim similique duo te, et euripidis urbanitas sit, nam id utroque inimicus definiebas. Mei sumo phaedrum.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 goods">
+                    <img src="images/product-1.jpg" alt="">
+                    <h4>Hemptouch Therapeutic</h4>
+                    <p>$56.00</p>
+                </div>
+                <div class="col-md-4 col-sm-6 goods">
+                    <img src="images/product-2.jpg" alt="">
+                    <h4>BioBloom Organic</h4>
+                    <p>$82.00</p>
+                </div>
+                <div class="col-md-4 col-sm-6 goods">
+                    <img src="images/product-3.jpg" alt="">
+                    <h4>CannabiGold CBD</h4>
+                    <p>$69.00</p>
+                </div>
+                <div class="col-md-4 col-sm-6 goods">
+                    <img src="images/product-4.jpg" alt="">
+                    <h4>Meladol CBD</h4>
+                    <p>$38.00</p>
+                </div>
+                <div class="col-md-4 col-sm-6 goods">
+                    <img src="images/product-5.jpg" alt="">
+                    <h4>Essential Oil</h4>
+                    <p>$75.00</p>
+                </div>
+                <div class="col-md-4 col-sm-6 goods">
+                    <img src="images/product-6.jpg" alt="">
+                    <h4>Hemp Candy</h4>
+                    <p>$42.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Order at Home -->
+    <section class="order">
+        <div class="order-home">
+            <h1>Order at Home</h1>
+            <p>Impedit inciderint ea eos, mollis corrumpit est ne. In civibus scripserit has, dico impetus ad sed, quo debet.</p>
+            <a href="#" class="button">See More<span>+</span></a>
+        </div>
+    </section>
+    <!-- Our Logo -->
+    <section class="our-logo">
+        <img src="images/client-1.png" alt="">
+        <img src="images/client-2.png" alt="">
+        <img src="images/client-3.png" alt="">
+        <img src="images/client-4.png" alt="">
+        <img src="images/client-5.png" alt="">
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="first">
+            <h2>About us</h2>
+            <p>Proin gravida nibh vel velit auctor aliquet. Proin gravida nibh vel velit auctor aliquet. Aenean solliclorem quis bibendum auctor, nisi elit consequat</p>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+        </div>
+        <div class="Second">
+            <h2>Useful Links</h2>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="#">Explore our Connsultancy Service</a>
+                </li>
+                <li>
+                    <a href="#">Finest Produsts explore</a>
+                </li>
+                <li>
+                    <a href="#">Our Mission</a>
+                </li>
+                <li>
+                    <a href="#">Consultant Team</a>
+                </li>
+                <li>
+                    <a href="#">Our Testimonial list</a>
+                </li>
+            </ul>
+        </div>
+        <div class="third">
+            <h2>Newsletter</h2>
+            <input type="email" name="your-email" placeholder="Eamil*" /><br/>
+            <textarea name="your-message" cols="40" rows="10" placeholder="TEXT MESSAGE*"></textarea>
+            <div class="button">Send Massege</div>
+        </div>
+    </footer>
+</body>
+
+</html>

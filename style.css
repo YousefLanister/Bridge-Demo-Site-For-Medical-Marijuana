@@ -1,0 +1,1073 @@
+        .link {
+            background: #ffa9c821;
+            height: 55px;
+            margin-top: -10px;
+        }
+        
+        .link p {
+            margin-left: 123px;
+            padding-top: 20px;
+            letter-spacing: 1px;
+            color: #ff5c37ab;
+        }
+        
+        .link p span {
+            margin-left: 83px;
+        }
+        
+        .link hr {
+            margin-top: -4px;
+            margin-bottom: 20px;
+            border: 0;
+            width: 88%;
+            border-top: 2px solid #dfd8d8;
+        }
+        
+        .link p .face-twit-p {
+            margin-left: 577px;
+        }
+        
+        .link p .face-twit-p i {
+            border: 1px solid;
+            padding: 4px;
+            border-radius: 17px;
+            transition: 0.3s;
+        }
+        
+        .link p .face-twit-p i:hover {
+            color: #21932a;
+        }
+        /* Navbar */
+        
+        .navbar {
+            background: #ffa9c821;
+        }
+        
+        .navbar .logo {
+            margin-left: 79px;
+        }
+        
+        .navbar ul {
+            display: flex;
+            margin-left: 149px;
+            margin-top: -26px;
+        }
+        
+        .navbar ul li a {
+            margin-right: 25px;
+            font-size: 23px;
+            color: #21932a;
+            font-family: cormorant, garamond, sans-serif;
+            transition: 0.3s;
+        }
+        
+        .navbar ul .icon i {
+            margin-left: 799px;
+            font-size: 23px;
+            color: #21932a;
+        }
+        
+        .navbar ul .icon i span {
+            background: #21932a;
+        }
+        /* Header */
+        
+        header .background {
+            background: #ffa9c821;
+            margin-top: -20px;
+        }
+        
+        header .background .slider-1 {
+            margin-left: 72px;
+            margin-top: 165px;
+            width: 212px;
+        }
+        
+        header .background .slider-2 {
+            margin-left: 233px;
+            margin-top: -345px;
+            width: 134px;
+        }
+        
+        header .background h1 {
+            margin-left: 378px;
+            margin-top: -299px;
+            font-size: 97px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        header .background p {
+            margin-left: 378px;
+            font-size: 27px;
+            font-family: Dancing Script;
+            margin-bottom: 30px;
+        }
+        
+        header .background .slider-3 {
+            margin-left: 1001px;
+            margin-top: -686px;
+            width: 170px;
+        }
+        
+        header .background .slider-4 {
+            margin-left: 834px;
+            margin-top: -274px;
+            width: 259px;
+        }
+        
+        header .background .slider-5 {
+            margin-left: 107px;
+            margin-top: -561px;
+            width: 145px;
+        }
+        
+        header .background .button {
+            color: #21932a;
+            text-decoration: none;
+            margin-left: 585px;
+            border: 1px solid;
+            padding-left: 20px;
+            padding-top: 4px;
+            padding-right: 0px;
+            padding-bottom: 4px;
+            font-size: 28px;
+            font-family: cormorant, garamond, sans-serif;
+            margin-bottom: 20px;
+            line-height: 100px;
+        }
+        
+        header .background .down {
+            color: #ff5c37ab;
+            margin-left: 660px;
+            margin-top: 41px;
+            border: 1px solid;
+            border-radius: 87px;
+            padding: 12px;
+        }
+        
+        header .background a span {
+            border: 1px solid;
+            padding-top: 4px;
+            padding-right: 12px;
+            padding-left: 10px;
+            padding-bottom: 4px;
+            margin-left: 13px;
+        }
+        /* CBD  */
+        
+        section .cbd img {
+            width: 430px;
+            margin-left: 113px;
+            margin-top: 166px;
+        }
+        
+        section .cbd h1 {
+            margin-left: 600px;
+            margin-top: -436px;
+            font-size: 55px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        section .cbd p {
+            margin-left: 604px;
+            font-size: 23px;
+            width: 400px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #ff5c37ab;
+            font-style: italic;
+        }
+        
+        section .our-pleans {
+            margin-left: 598px;
+        }
+        
+        section .our-pleans h2 {
+            font-size: 30px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        section .our-pleans p {
+            width: 300px;
+            font-family: UNSET;
+            color: #bbb;
+        }
+        
+        section .our-pleans-icon {
+            margin-left: 914px;
+            margin-top: -352px;
+        }
+        
+        section .our-pleans-icon h2 {
+            font-size: 30px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        section .our-pleans-icon p {
+            width: 300px;
+            font-family: UNSET;
+            color: #bbb;
+        }
+        
+        section .our-pleans-repeat {
+            margin-left: 915px;
+        }
+        
+        section .our-pleans-repeat h2 {
+            font-size: 30px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        section .our-pleans-repeat p {
+            width: 300px;
+            font-family: UNSET;
+            color: #bbb;
+        }
+        /* Our Team */
+        
+        .team {
+            background: url('images/parallax-1.jpg') center center fixed;
+            background-size: cover;
+            height: 600px;
+            margin-top: 100px;
+            text-align: center;
+        }
+        
+        .team .row {
+            padding-top: 100px;
+        }
+        
+        .team .row .our-team-1 {
+            background: #fff;
+            padding-bottom: 82px;
+            padding-top: 60px;
+            margin-right: 9px;
+            width: 314px;
+            margin-left: 70px;
+        }
+        
+        .team .row .our-team-2 {
+            background: #fff;
+            padding-bottom: 65px;
+            padding-top: 60px;
+            width: 314px;
+            margin-right: 7px;
+        }
+        
+        .team .row .our-team-3 {
+            background: #fff;
+            padding-top: 60px;
+            padding-bottom: 82px;
+            width: 314px;
+            margin-right: 7px;
+        }
+        
+        .team .row .our-team-1 p {
+            padding-top: 30px;
+            font-family: Nunito;
+            color: #7e7e7e;
+        }
+        
+        .team .row .our-team-2 p {
+            padding-top: 30px;
+            font-family: Nunito;
+            color: #7e7e7e;
+        }
+        
+        .team .row .our-team-3 p {
+            padding-top: 30px;
+            font-family: Nunito;
+            color: #7e7e7e;
+        }
+        
+        .team .row .our-team-1 h2 {
+            font-size: 20px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        .team .row .our-team-2 h2 {
+            font-size: 20px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        .team .row .our-team-3 h2 {
+            font-size: 20px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        /* Our Products */
+        
+        .our-products h1 {
+            margin-top: 99px;
+            margin-left: 99px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+            font-size: 80px;
+        }
+        
+        .our-products p {
+            margin-left: 102px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #ff5c37ab;
+            font-style: italic;
+            width: 315px;
+            font-weight: 500;
+            font-size: 21px;
+        }
+        
+        .our-products h3 {
+            margin-left: 80px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        .our-products i {
+            color: #ff5c37ab;
+            margin-right: 10px;
+        }
+        
+        .our-products .mojmo3 p {
+            font-family: Nunito;
+            font-size: 15px;
+            color: #7e7e7e;
+        }
+        
+        .our-products img {
+            width: 577px;
+            margin-left: 632px;
+            height: 492px;
+            margin-top: -525px;
+        }
+        /* Ready to Start */
+        
+        .ready h1 {
+            margin-top: 114px;
+            background: #ff5c37ab;
+            color: #fff;
+            padding-top: 44px;
+            font-size: 56px;
+            padding-left: 64px;
+            padding-bottom: 97px;
+            font-family: cormorant, garamond, sans-serif;
+        }
+        
+        .ready p {
+            margin-left: 68px;
+            margin-top: -80px;
+            font-size: 20px;
+            color: #fff;
+            letter-spacing: 1px;
+            font-family: cormorant, garamond, sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+        
+        .ready a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 242px;
+            border: 1px solid;
+            padding-left: 20px;
+            padding-top: 4px;
+            padding-right: 0px;
+            padding-bottom: 4px;
+            font-size: 28px;
+        }
+        
+        .ready a span {
+            border: 1px solid;
+            padding-top: 4px;
+            padding-right: 12px;
+            padding-left: 10px;
+            padding-bottom: 4px;
+        }
+        /* Our Products */
+        
+        .products {
+            text-align: center;
+            margin-top: 127px;
+        }
+        
+        .products h1 {
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+            font-size: 60px;
+        }
+        
+        .products p {
+            width: 400px;
+            margin-left: 370px;
+            font-family: cormorant, garamond, sans-serif;
+            font-weight: bold;
+            color: #ff5c37ab;
+            font-size: 20px;
+            font-style: italic;
+        }
+        
+        .products img {
+            width: 260px;
+            margin-top: 65px;
+        }
+        
+        .products h4 {
+            font-size: 18px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #21932a;
+        }
+        
+        .products .goods p {
+            font-family: Nunito;
+            font-size: 15px;
+            color: #7e7e7e;
+            margin-left: -12px;
+        }
+        /* Order at Home */
+        
+        .order .order-home {
+            background: url(images/parallax-2.jpg) center center fixed;
+            background-size: cover;
+            height: 600px;
+            margin-top: 175px;
+        }
+        
+        .order .order-home h1 {
+            margin-left: 456px;
+            padding-top: 145px;
+            font-size: 69px;
+            color: #fff;
+            font-family: cormorant, garamond, sans-serif;
+        }
+        
+        .order .order-home p {
+            margin-left: 404px;
+            color: #fff;
+            text-align: center;
+            width: 553px;
+            font-size: 21px;
+            font-family: cormorant, garamond, sans-serif;
+            font-weight: 500;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        
+        .order .order-home a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 585px;
+            border: 1px solid;
+            padding-left: 20px;
+            padding-top: 4px;
+            padding-right: 0px;
+            padding-bottom: 4px;
+            font-size: 28px;
+            font-family: cormorant, garamond, sans-serif;
+        }
+        
+        .order .order-home a span {
+            border: 1px solid;
+            padding-top: 4px;
+            padding-right: 12px;
+            padding-left: 10px;
+            padding-bottom: 4px;
+            margin-left: 13px;
+        }
+        /* Our Logo */
+        
+        .our-logo img {
+            margin-top: 63px;
+            opacity: 0.1;
+            transition: 1s;
+        }
+        
+        .our-logo img:hover {
+            opacity: 1;
+        }
+        /* Footer */
+        
+        footer {
+            background: #002200;
+            color: #ff5c37ab;
+            height: 305px;
+        }
+        
+        footer .first h2 {
+            color: #fff;
+            margin-left: 92px;
+            padding-top: 46px;
+            font-family: cormorant, garamond, sans-serif;
+            font-size: 45px;
+        }
+        
+        textarea {
+            height: 80px;
+        }
+        
+        footer .first p {
+            width: 310px;
+            margin-left: 89px;
+            font-family: cormorant, garamond, sans-serif;
+            font-weight: 500;
+            font-style: italic;
+            font-size: 17px;
+        }
+        
+        p {
+            margin: 0 0 10px;
+        }
+        
+        footer .first .icon {
+            margin-left: 87px;
+        }
+        
+        footer .first .icon i {
+            border: 1px solid;
+            margin-right: 12px;
+            border-radius: 30px;
+            padding: 7px;
+            transition: 0.4s;
+        }
+        
+        footer .first .icon i:hover {
+            color: #fff;
+        }
+        
+        footer .Second h2 {
+            margin-left: 567px;
+            margin-top: -162px;
+            color: #fff;
+            font-family: cormorant, garamond, sans-serif;
+            font-size: 37px;
+        }
+        
+        footer .Second ul li a {
+            color: #ff5c37ab;
+            text-decoration: none;
+            margin-left: 574px;
+            font-family: cormorant, garamond, sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+        
+        footer .third {
+            margin-left: 888px;
+            margin-top: -170px;
+            color: #fff;
+        }
+        
+        footer .third h2 {
+            margin-left: 0px;
+            font-size: 36px;
+            margin-top: -170px;
+            font-family: cormorant, garamond, sans-serif;
+            color: #fff;
+        }
+        
+        footer .third .button {
+            border: 1px solid;
+            width: 145px;
+            padding-top: 10px;
+            font-size: 18px;
+            margin-top: 13px;
+            padding-left: 22px;
+            padding-bottom: 10px;
+            font-family: -webkit-body;
+            font-family: cormorant, garamond, sans-serif;
+        }
+        
+        @media (max-width: 767px) {
+            .navbar ul li a {
+                margin-right: 113px;
+                margin-left: -70px;
+            }
+            .navbar .logo {
+                margin-left: 188px;
+                margin-bottom: 50px;
+            }
+            .navbar ul .icon i {
+                margin-left: -70px;
+                margin-top: 0px;
+                font-size: 23px;
+                color: #21932a;
+            }
+            header .background {
+                background: #ffa9c821;
+                margin-top: -20px;
+                width: 483px;
+            }
+            header .background .slider-1 {
+                margin-left: 3px;
+                margin-top: 207px;
+                width: 92px;
+            }
+            header .background .slider-2 {
+                margin-left: 13px;
+                margin-top: -116px;
+                width: 70px;
+            }
+            header .background h1 {
+                margin-left: 76px;
+                margin-top: -176px;
+                font-size: 41px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #21932a;
+            }
+            header .background p {
+                margin-left: 78px;
+                font-size: 27px;
+                font-family: Dancing Script;
+                margin-bottom: 30px;
+            }
+            header .background .slider-3 {
+                margin-left: 342px;
+                margin-top: -368px;
+                width: 69px;
+            }
+            header .background .slider-4 {
+                margin-left: 247px;
+                margin-top: -117px;
+                width: 132px;
+            }
+            header .background .slider-5 {
+                margin-left: 404px;
+                margin-top: -266px;
+                width: 80px;
+            }
+            header .background .down {
+                color: #ff5c37ab;
+                margin-left: 187px;
+                margin-top: 41px;
+                border: 1px solid;
+                border-radius: 87px;
+                padding: 12px;
+            }
+            header .background .button {
+                color: #21932a;
+                text-decoration: none;
+                margin-left: 118px;
+                border: 1px solid;
+                padding-left: 20px;
+                padding-top: 4px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                font-size: 28px;
+                font-family: cormorant, garamond, sans-serif;
+                margin-bottom: 20px;
+                line-height: 100px;
+            }
+            section .cbd img {
+                width: 395px;
+                margin-left: 48px;
+                margin-top: 166px;
+            }
+            section .cbd h1 {
+                margin-left: 32px;
+                margin-top: 8px;
+                font-size: 55px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #21932a;
+            }
+            section .cbd p {
+                margin-left: 41px;
+                font-size: 23px;
+                width: 400px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #ff5c37ab;
+                font-style: italic;
+            }
+            section .our-pleans {
+                margin-left: 40px;
+            }
+            section .our-pleans-icon {
+                margin-left: 41px;
+                margin-top: 15px;
+            }
+            section .our-pleans-repeat {
+                margin-left: 37px;
+            }
+            .our-products h1 {
+                margin-top: 99px;
+                margin-left: 28px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #21932a;
+                font-size: 55px;
+            }
+            .our-products p {
+                margin-left: 36px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #ff5c37ab;
+                font-style: italic;
+                width: 315px;
+                font-weight: 500;
+                font-size: 21px;
+            }
+            .our-products h3 {
+                margin-left: 10px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #21932a;
+            }
+            .ready h1 {
+                margin-top: 114px;
+                background: #ff5c37ab;
+                color: #fff;
+                padding-top: 44px;
+                font-size: 47px;
+                padding-left: 18px;
+                padding-bottom: 97px;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            .ready p {
+                margin-left: 13px;
+                margin-top: -93px;
+                font-size: 22px;
+                color: #fff;
+                letter-spacing: 1px;
+                font-family: cormorant, garamond, sans-serif;
+                font-weight: 500;
+                font-style: italic;
+            }
+            .ready a {
+                color: #ffffff;
+                text-decoration: none;
+                margin-left: 242px;
+                border: 1px solid;
+                padding-left: 20px;
+                padding-top: 4px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                font-size: 28px;
+            }
+            .products p {
+                width: 400px;
+                margin-left: 33px;
+                font-family: cormorant, garamond, sans-serif;
+                font-weight: bold;
+                color: #ff5c37ab;
+                font-size: 20px;
+                font-style: italic;
+            }
+            .products .goods p {
+                font-family: Nunito;
+                font-size: 15px;
+                color: #7e7e7e;
+                margin-left: 25px;
+            }
+            .order .order-home h1 {
+                margin-left: 24px;
+                padding-top: 145px;
+                font-size: 69px;
+                color: #fff;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            .order .order-home p {
+                margin-left: -1px;
+                color: #fff;
+                text-align: center;
+                width: 466px;
+                font-size: 21px;
+                font-family: cormorant, garamond, sans-serif;
+                font-weight: 500;
+                font-style: italic;
+                margin-bottom: 30px;
+            }
+            .order .order-home h1 {
+                margin-left: 23px;
+                padding-top: 145px;
+                font-size: 69px;
+                color: #fff;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            .order .order-home a {
+                color: #ffffff;
+                text-decoration: none;
+                margin-left: 131px;
+                border: 1px solid;
+                padding-left: 20px;
+                padding-top: 4px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                font-size: 28px;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            .our-logo img {
+                margin-top: 63px;
+                opacity: 0.1;
+                transition: 1s;
+                margin-left: -26px;
+                margin-bottom: 10px;
+            }
+            footer {
+                background: #002200;
+                color: #ff5c37ab;
+                height: 676px;
+            }
+            footer .Second h2 {
+                margin-left: 90px;
+                margin-top: 17px;
+                color: #fff;
+                font-family: cormorant, garamond, sans-serif;
+                font-size: 37px;
+            }
+            footer .Second ul li a {
+                color: #ff5c37ab;
+                text-decoration: none;
+                margin-left: 92px;
+                font-family: cormorant, garamond, sans-serif;
+                font-weight: 500;
+                font-style: italic;
+            }
+            footer .third h2 {
+                margin-left: -795px;
+                font-size: 36px;
+                margin-top: 186px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #fff;
+            }
+            input {
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+                margin-left: -796px;
+                margin-top: 2px;
+            }
+            textarea {
+                height: 80px;
+                margin-left: -796px;
+                margin-top: 2px;
+            }
+            footer .third .button {
+                border: 1px solid;
+                width: 145px;
+                padding-top: 10px;
+                font-size: 18px;
+                margin-top: 13px;
+                padding-left: 22px;
+                padding-bottom: 10px;
+                font-family: -webkit-body;
+                margin-left: -793px;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            .our-products img {
+                width: 459px;
+                margin-left: 13px;
+                height: 492px;
+                margin-top: 22px;
+            }
+        }
+        
+        @Media (min-width: 768px) and (max-width: 991px) {
+            .navbar {
+                background: #ffa9c821;
+                padding-left: 40px;
+            }
+            .navbar ul .icon i {
+                margin-left: 11px;
+                font-size: 23px;
+                color: #21932a;
+            }
+            .navbar ul {
+                display: flex;
+                margin-left: 245px;
+                margin-top: -26px;
+            }
+            .navbar ul li a {
+                margin-right: 139px;
+                font-size: 23px;
+                margin-left: -65px;
+                color: #21932a;
+                font-family: cormorant, garamond, sans-serif;
+                transition: 0.3s;
+            }
+            .navbar .logo {
+                margin-left: 353px;
+                margin-right: 36px;
+                margin-top: 42px;
+                margin-bottom: 41px;
+            }
+            header .background .slider-1 {
+                margin-left: 120px;
+                margin-top: 87px;
+                width: 122px;
+            }
+            header .background h1 {
+                margin-left: 208px;
+                margin-top: -146px;
+                font-size: 54px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #21932a;
+            }
+            header .background p {
+                margin-left: 206px;
+                font-size: 27px;
+                font-family: Dancing Script;
+                margin-bottom: 30px;
+            }
+            header .background .slider-2 {
+                margin-left: 91px;
+                margin-top: -115px;
+                width: 67px;
+            }
+            header .background .slider-3 {
+                margin-left: 566px;
+                margin-top: -223px;
+                width: 90px;
+            }
+            header .background .slider-4 {
+                margin-left: 481px;
+                margin-top: -75px;
+                width: 130px;
+            }
+            header .background .slider-5 {
+                margin-left: 735px;
+                width: 124px;
+                margin-top: -187px;
+            }
+            header .background a {
+                color: #21932a;
+                text-decoration: none;
+                margin-left: 288px;
+                border: 1px solid;
+                padding-left: 20px;
+                padding-top: 4px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                font-size: 28px;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            section .cbd img {
+                width: 634px;
+                margin-left: 113px;
+                margin-top: 166px;
+                margin-bottom: 5px;
+            }
+            section .cbd h2 {
+                margin-left: 88px;
+                margin-top: 327px;
+                font-size: 66px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #21932a;
+            }
+            section .cbd p {
+                margin-left: 90px;
+                font-size: 23px;
+                width: 568px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #ff5c37ab;
+                font-style: italic;
+            }
+            section .our-pleans {
+                margin-left: 91px;
+            }
+            section .our-pleans-icon {
+                margin-left: 425px;
+                margin-top: -352px;
+            }
+            section .our-pleans-repeat {
+                margin-left: 428px;
+            }
+            .ready a {
+                color: #ffffff;
+                text-decoration: none;
+                margin-left: 492px;
+                border: 1px solid;
+                padding-left: 20px;
+                padding-top: 4px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                font-size: 28px;
+            }
+            .team .row .our-team-1 {
+                background: #fff;
+                padding-bottom: 82px;
+                padding-top: 60px;
+                margin-right: 9px;
+                width: 314px;
+                margin-left: 0px;
+            }
+            .team .row .our-team-2 {
+                background: #fff;
+                padding-bottom: 65px;
+                padding-top: 60px;
+                width: 314px;
+                margin-left: 389px;
+                margin-right: -49px;
+                margin-top: -431px;
+            }
+            .our-products img {
+                width: 668px;
+                margin-left: 108px;
+                height: 580px;
+                margin-top: 32px;
+                margin-bottom: 10px;
+            }
+            .products p {
+                width: 400px;
+                margin-left: 172px;
+                font-family: cormorant, garamond, sans-serif;
+                font-weight: bold;
+                color: #ff5c37ab;
+                font-size: 20px;
+                font-style: italic;
+            }
+            .order .order-home h1 {
+                margin-left: 217px;
+                padding-top: 145px;
+                font-size: 69px;
+                color: #fff;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            .order .order-home p {
+                margin-left: 177px;
+                color: #fff;
+                text-align: center;
+                width: 553px;
+                font-size: 21px;
+                font-family: cormorant, garamond, sans-serif;
+                font-weight: 500;
+                font-style: italic;
+                margin-bottom: 30px;
+            }
+            .order .order-home a {
+                color: #ffffff;
+                text-decoration: none;
+                margin-left: 355px;
+                border: 1px solid;
+                padding-left: 20px;
+                padding-top: 4px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                font-size: 28px;
+                font-family: cormorant, garamond, sans-serif;
+            }
+            footer .first {
+                margin-left: -73px;
+            }
+            footer .Second {
+                margin-left: -240px;
+            }
+            footer .third {
+                margin-left: 537px;
+                margin-top: auto;
+                color: #fff;
+            }
+        }
+        
+        @Media (min-width: 991px) and (max-width: 1199px) {
+            header .background h1 {
+                margin-left: 257px;
+                margin-top: -146px;
+                font-size: 54px;
+                font-family: cormorant, garamond, sans-serif;
+                color: #21932a;
+            }
+            header .background .slider-5 {
+                margin-left: 735px;
+                width: 124px;
+                margin-top: -187px;
+            }
+        }

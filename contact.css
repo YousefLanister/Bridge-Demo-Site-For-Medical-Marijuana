@@ -1,0 +1,338 @@
+.link {
+    background: #ffa9c821;
+    height: 55px;
+    margin-top: -10px;
+}
+
+.link p {
+    margin-left: 123px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    color: #ff5c37ab;
+}
+
+.link p span {
+    margin-left: 83px;
+}
+
+.link hr {
+    margin-top: -4px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 88%;
+    border-top: 2px solid #dfd8d8;
+}
+
+.link p .face-twit-p {
+    margin-left: 577px;
+}
+
+.link p .face-twit-p i {
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 17px;
+    transition: 0.3s;
+}
+
+.link p .face-twit-p i:hover {
+    color: #21932a;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: #ffa9c821;
+}
+
+.navbar .logo {
+    margin-left: 79px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 149px;
+    margin-top: -26px;
+}
+
+.navbar ul li a {
+    margin-right: 25px;
+    font-size: 23px;
+    color: #21932a;
+    font-family: cormorant, garamond, sans-serif;
+    transition: 0.3s;
+}
+
+.navbar ul .icon i {
+    margin-left: 799px;
+    font-size: 23px;
+    color: #21932a;
+}
+
+.navbar ul .icon i span {
+    background: #21932a;
+}
+
+
+/* about Us */
+
+.contact {
+    background: #ffa9c821;
+    margin-top: -20px;
+    padding-left: 104px;
+    height: 600px;
+    padding-top: 46px;
+}
+
+.contact h1 {
+    font-size: 56px;
+    color: #21932a;
+    font-family: cormorant, garamond, sans-serif;
+}
+
+.contact p {
+    width: 500px;
+    font-size: 20px;
+    font-family: cormorant, garamond, sans-serif;
+    color: #ff5c37ab;
+    font-style: italic;
+}
+
+.contact .lorem-1 {
+    font-family: Nunito;
+    font-size: 15px;
+    color: #7e7e7e;
+}
+
+.contact .mjmo3at span {
+    margin-right: 60px;
+    font-family: Nunito;
+    font-size: 15px;
+    color: #7e7e7e;
+}
+
+.contact .mjmo3at p {
+    font-family: Nunito;
+    font-size: 15px;
+    color: #7e7e7e;
+    display: flex;
+}
+
+.contact .text {
+    margin-left: 52%;
+    margin-top: -256px;
+    font-size: 20px;
+}
+
+button {
+    font-family: cormorant, garamond, sans-serif;
+    padding: 12px;
+    font-size: 22px;
+    margin-left: 648px;
+    border: 2px solid green;
+    border-radius: 0px;
+    background: #ffa9c821;
+    color: green;
+}
+
+.text-area {
+    height: 127px;
+}
+
+input,
+textarea {
+    font-family: auto;
+    font-size: inherit;
+    line-height: -1px;
+}
+
+
+/* Our Products */
+
+.our-products h1 {
+    margin-top: 99px;
+    margin-left: 99px;
+    font-family: cormorant, garamond, sans-serif;
+    color: #21932a;
+    font-size: 80px;
+}
+
+.our-products p {
+    margin-left: 102px;
+    font-family: cormorant, garamond, sans-serif;
+    color: #ff5c37ab;
+    font-style: italic;
+    width: 315px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.our-products h3 {
+    margin-left: 80px;
+    font-family: cormorant, garamond, sans-serif;
+    color: #21932a;
+}
+
+.our-products i {
+    color: #ff5c37ab;
+    margin-right: 10px;
+}
+
+.our-products .mojmo3 p {
+    font-family: Nunito;
+    font-size: 15px;
+    color: #7e7e7e;
+}
+
+.our-products img {
+    width: 577px;
+    margin-left: 632px;
+    height: 492px;
+    margin-top: -525px;
+}
+
+
+/* Order at Home */
+
+.order .order-home {
+    background: url(images/parallax-2.jpg) center center fixed;
+    background-size: cover;
+    height: 600px;
+    margin-top: 175px;
+}
+
+.order .order-home h1 {
+    margin-left: 456px;
+    padding-top: 145px;
+    font-size: 69px;
+    color: #fff;
+    font-family: cormorant, garamond, sans-serif;
+}
+
+.order .order-home p {
+    margin-left: 404px;
+    color: #fff;
+    text-align: center;
+    width: 553px;
+    font-size: 21px;
+    font-family: cormorant, garamond, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.order .order-home a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 585px;
+    border: 1px solid;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    font-size: 28px;
+    font-family: cormorant, garamond, sans-serif;
+}
+
+.order .order-home a span {
+    border: 1px solid;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    margin-left: 13px;
+}
+
+
+/* Our Logo */
+
+.our-logo img {
+    margin-top: 63px;
+    opacity: 0.1;
+    transition: 1s;
+}
+
+.our-logo img:hover {
+    opacity: 1;
+}
+
+
+/* Footer */
+
+footer {
+    background: #002200;
+    color: #ff5c37ab;
+    height: 305px;
+}
+
+footer .first h2 {
+    color: #fff;
+    margin-left: 92px;
+    padding-top: 46px;
+    font-family: cormorant, garamond, sans-serif;
+    font-size: 45px;
+}
+
+textarea {
+    height: 80px;
+}
+
+footer .first p {
+    width: 310px;
+    margin-left: 89px;
+    font-family: cormorant, garamond, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 17px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+footer .first .icon {
+    margin-left: 87px;
+}
+
+footer .first .icon i {
+    border: 1px solid;
+    margin-right: 12px;
+    border-radius: 30px;
+    padding: 7px;
+    transition: 0.4s;
+}
+
+footer .first .icon i:hover {
+    color: #fff;
+}
+
+footer .Second h2 {
+    margin-left: 567px;
+    margin-top: -162px;
+    color: #fff;
+    font-family: cormorant, garamond, sans-serif;
+    font-size: 37px;
+}
+
+footer .Second ul li a {
+    color: #ff5c37ab;
+    text-decoration: none;
+    margin-left: 574px;
+    font-family: cormorant, garamond, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+footer .third {
+    margin-left: 888px;
+    margin-top: -170px;
+    color: #fff;
+}
+
+footer .third h2 {
+    margin-left: 0px;
+    font-size: 36px;
+    margin-top: -170px;
+    font-family: cormorant, garamond, sans-serif;
+    color: #fff;
+}
